@@ -1,0 +1,30 @@
+body {
+    background-image: url(img/back-ground2.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+.divlogo {
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.626);
+    display: flex;
+    justify-content: space-around;
+}
+.logoqueen {
+    width: 19%;
+    height: 12%;
+}
+.navbar{
+    
+    background-color: rgba(0, 0, 0, 0.749);
+}
+
