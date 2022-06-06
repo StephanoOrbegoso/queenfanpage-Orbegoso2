@@ -61,7 +61,7 @@ body {
 
 
 .historia {
-    font-size: 2em;
+    font-size: 1.68rem;
     font-style: italic;
     color: aliceblue;
     background-color: rgb(53, 48, 48);
@@ -69,8 +69,6 @@ body {
 }
 
 #historia {
-    display: flex;
-    justify-self: center;
 }
 
 /* empieza grid*/
@@ -85,7 +83,7 @@ body {
 .divyoutubetittles {
     width: 100%;
     height: 13%;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     background-color: beige;
 
 }
@@ -101,7 +99,7 @@ body {
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 6%;
+    width: 5rem;
 }
 
 
