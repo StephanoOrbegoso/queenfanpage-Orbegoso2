@@ -18,7 +18,7 @@ body {
     padding: 0;
 }
 .logoqueen {
-    width: 100%;
+    width: 6rem;
     margin: 0;
     padding-left: 0;
 }
@@ -32,7 +32,7 @@ body {
 }
 .controlesdenavegacion {
     border: 2px solid rgb(209, 187, 187);
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 /*transition para el navbar*/
 .controlesdenavegacion:hover {
@@ -44,7 +44,7 @@ body {
     color: white;
 }
 #anavbar{
-    padding: 0 2rem 0 2rem;
+    padding: 0 3rem 0 3rem;
 }
 
 
