@@ -11,74 +11,41 @@ body {
     background-repeat: repeat;
     background-attachment: fixed;
 }
-
-
-
-
-
-
-
-
-
-
 .divlogo {
-    width: 100%;
-    background-color: rgba(240, 248, 255, 0.626);
-    display: flex;
-    justify-content: space-around;
-}
-
-.logoqueen {
     width: 19%;
     height: 12%;
+    margin: 0;
+    padding: 0;
 }
-
-
-
-
-
+.logoqueen {
+    width: 100%;
+    margin: 0;
+    padding-left: 0;
+}
+.divlogonavbar{
+    padding: 0;
+    margin: 0;
+}
 .zonanav {
-    background-color: rgba(0, 0, 0, 0.749);
+    background-color: rgba(253, 254, 255, 0.829);
+    color: white;
 }
-
 .controlesdenavegacion {
     border: 2px solid rgb(209, 187, 187);
-    
-
+    font-size: 1rem;
 }
-
 /*transition para el navbar*/
-
-
-
 .controlesdenavegacion:hover {
     transition: 1s;
     background-color: rgb(209, 187, 187);
     color: black;
 }
-
-
 #ulnavbar {
     color: white;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0.25rem 0.5rem 0.25rem 0.5rem; 
-    list-style: none;
-    justify-content: space-around;
-    margin: 0;
 }
-
-
 #anavbar{
-    padding: 0 3rem 0 3rem;
+    padding: 0 2rem 0 2rem;
 }
-
-.navbar-toggler{
-    right: 0;
-}
-
-
-
 
 
 
@@ -98,7 +65,7 @@ body {
     font-style: italic;
     color: aliceblue;
     background-color: rgb(53, 48, 48);
-    margin: 13% 0 13% 0;
+    margin: 5% 0 5% 0;
 }
 
 #historia {
