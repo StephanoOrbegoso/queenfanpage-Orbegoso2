@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -29,15 +27,68 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
 .logoqueen {
     width: 19%;
     height: 12%;
 }
-.navbar{
-    
+
+
+
+
+
+.zonanav {
     background-color: rgba(0, 0, 0, 0.749);
 }
-.divcarrusel{
+
+.controlesdenavegacion {
+    border: 2px solid rgb(209, 187, 187);
+    
+
+}
+
+/*transition para el navbar*/
+
+
+
+.controlesdenavegacion:hover {
+    transition: 1s;
+    background-color: rgb(209, 187, 187);
+    color: black;
+}
+
+
+#ulnavbar {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem; 
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+}
+
+
+#anavbar{
+    padding: 0 3rem 0 3rem;
+}
+
+.navbar-toggler{
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.divcarrusel {
     background-color: black;
 }
 
@@ -63,16 +114,19 @@ body {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 3%;
 }
-.divyoutubetittles{ 
+
+.divyoutubetittles {
     width: 100%;
     height: 13%;
     font-size: 1.5em;
     background-color: beige;
 
 }
+
 .youtubetittles {
     color: brown;
 }
+
 /*termina el area con grid*/
 
 
@@ -198,5 +252,3 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
-
