@@ -123,17 +123,14 @@ body {
 
 #canciones {
     width: 100%;
-    height: 90%;
-    margin: 13% 0 6% 0;
     background-color: #6c757dbf;
-
+margin-top: 13%;
 }
 
 .masterlistofsongs {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    column-count: 3;
 }
 
 .navcanciones {
@@ -141,12 +138,8 @@ body {
     text-decoration: none;
 }
 
-.liespecial {
-    margin-top: 2%;
-}
-
 .listofsongs {
-    font-size: 150%;
+    font-size: 1.5rem;
     color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.845);
     border: 1% black;
@@ -155,7 +148,7 @@ body {
 }
 
 .licanciones {
-    margin: 3% 0 3% 0;
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 .listofsongs:hover {
@@ -174,7 +167,7 @@ body {
 }
 
 .defansparafans {
-    font-size: 3em;
+    font-size: 3rem;
     color: rgb(129, 194, 245);
     background-color: rgba(143, 143, 227, 0.445);
 
