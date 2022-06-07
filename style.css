@@ -47,8 +47,20 @@ body {
     padding: 0 3rem 0 3rem;
 }
 
+.sectionflecha {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 5rem;
+}
 
 
+.flechafijada {
+    width: 100%;
+    margin-left: auto;
+    display: block;
+    position: sticky;
+}
 
 
 
@@ -65,57 +77,43 @@ body {
     font-style: italic;
     color: aliceblue;
     background-color: rgb(53, 48, 48);
-    margin: 5% 0 5% 0;
+    margin: 5% 0 10% 0;
 }
-
-#historia {
+#populares{
+    margin-top: 13%;
+    margin-bottom: 3%;
 }
-
-/* empieza grid*/
-.popularesgrid {
-    height: 100%;
-    display: grid;
-    grid-template-rows: repeat(2, 98%);
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 3%;
-}
-
-.divyoutubetittles {
-    width: 100%;
-    height: 13%;
-    font-size: 1.5rem;
-    background-color: beige;
-
-}
-
-.youtubetittles {
+.secpopulares{
     color: brown;
+    overflow-wrap: normal;
 }
+.youtubetittles {
+    background-color: #6c757d;
+    font-size: 1.5rem;
+    border: 0.2rem black;
+    border-style: dotted dashed;
+    
+} 
+/* empieza grid de bootstrap*/
+
+
+
+
+
+
 
 /*termina el area con grid*/
 
 
-.sectionflecha {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 5rem;
-}
-
-
-.flechafijada {
-    width: 100%;
-    margin-left: auto;
-    display: block;
-    position: sticky;
-}
-
 #playlist {
-    margin: 30% 0 0 0;
+    margin: 3% 0 0 0;
     width: 100%;
-    height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+
+}
+.divplaylist{
+    width: 85%;
 
 }
 
@@ -126,9 +124,8 @@ body {
 #canciones {
     width: 100%;
     height: 90%;
-    display: flex;
-    justify-content: center;
-    margin: 8% 0 6% 0;
+    margin: 13% 0 6% 0;
+    background-color: #6c757dbf;
 
 }
 
@@ -136,7 +133,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    column-count: 2;
+    column-count: 3;
 }
 
 .navcanciones {
@@ -146,7 +143,6 @@ body {
 
 .liespecial {
     margin-top: 2%;
-    border-top: dashed;
 }
 
 .listofsongs {
@@ -162,7 +158,11 @@ body {
     margin: 3% 0 3% 0;
 }
 
-
+.listofsongs:hover {
+    transition: 1s;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
 
 
 #nosotros {

@@ -34,11 +34,6 @@
                             <li class="nav-item controlesdenavegacion">
                                 <a id="anavbar" class="nav-link active" href="#populares">POPULARES</a>
                             </li>
-                            </li>
-                            <li class="nav-item controlesdenavegacion">
-                                <a id="anavbar" class="nav-link active" href="#playlist">PLAYLISTS</a>
-                            </li>
-                            </li>
                             <li class="nav-item controlesdenavegacion">
                                 <a id="anavbar" class="nav-link active" href="#canciones">CANCIONES</a>
                             </li>
@@ -69,29 +64,34 @@
     <section id="carrusel" class="divcarrusel">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/img/queen1.jpg" class="d-block w-100" alt="foto de la banda queen">
-              </div>
-              <div class="carousel-item">
-                <img src="/img/queen2.jpg" class="d-block w-100" alt="foto de la banda queen">
-              </div>
-              <div class="carousel-item">
-                <img src="/img/queen3" class="d-block w-100" alt="foto de la banda queen">
-              </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+                <div class="carousel-item active">
+                    <img src="/img/queen1.jpg" class="d-block w-100" alt="foto de la banda queen">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/queen2.jpg" class="d-block w-100" alt="foto de la banda queen">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/queen3" class="d-block w-100" alt="foto de la banda queen">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
     </section>
     <section id="historia">
         <!-- su historia resumida -->
@@ -106,74 +106,64 @@
             nihil!
             Ex, beatae dignissimos! Ut labore voluptatem quibusdam expedita, deleniti minus alias cupiditate optio
             consequuntur voluptatum asperiores molestias qui culpa vero nemo dolor ex explicabo inventore quo quidem
-            incidunt? Nesciunt, repellendus?</p>
+            incidunt? Nesciunt, repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi error, deserunt odit obcaecati, ab rem quo suscipit libero atque sed minus, molestiae consequatur veniam numquam. Unde illo numquam fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perferendis est distinctio, quae, ea exercitationem placeat natus in maiores impedit sit omnis quam aperiam sint at praesentium incidunt facere sed? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta provident iusto minus quasi sint, modi culpa repudiandae cupiditate quas autem aperiam eaque nulla, tenetur dolorum iste nemo a consectetur possimus?</p>
     </section>
-    <!--empieza area con grid -->
-    <section id="populares">
-        <section class="popularesgrid">
-            <!-- mas populares -->
-            <div class="divpopulares">
-                <div class="divyoutubetittles">
-                    <p class="youtubetittles">
-                        WE WILL ROCK YOU
-                    </p>
+    <!--empieza area con grid de bootstrap-->
+    <!-- mas populares -->
+    <section id="populares" class="container">
+        <section class="row secpopulares">
+            <div class="card col-md col-sm-12 col-lg-4 divyoutube p-3 mb-2 bg-secondary">
+                <div class="card-body youtubetittles">
+                    <h5 class="card-title">WE WILL ROCK YOU</h5>
                 </div>
-                <iframe width="100%" height="90%" src="https://www.youtube.com/embed/-tJYN-eG1zk"
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-tJYN-eG1zk"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-            <div class="divpopulares">
-                <div class="divyoutubetittles">
-                    <p class="youtubetittles">
-                        BOHEMIAN RHAPSODY
-                    </p>
+            <div class="card col-md col-sm-12 col-lg-4 divyoutube p-3 mb-2 bg-secondary">
+                <div class="card-body youtubetittles">
+                    <h5 class="card-title">BOHEMIAN RHAPSODY</h5>
                 </div>
-                <iframe width="100%" height="90%" src="https://www.youtube.com/embed/fJ9rUzIMcZQ"
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fJ9rUzIMcZQ"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-            <div class="divpopulares">
-                <div class="divyoutubetittles">
-                    <p class="youtubetittles">
-                        I WANT TO BREAK FREE
-                    </p>
+            <div class="card col-md col-sm-12 col-lg-4 divyoutube p-3 mb-2 bg-secondary">
+                <div class="card-body youtubetittles">
+                    <h5 class="card-title">I WANT TO BREAK FREE</h5>
                 </div>
-                <iframe width="100%" height="90%" src="https://www.youtube.com/embed/f4Mc-NYPHaQ"
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/f4Mc-NYPHaQ"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-            <div class="divpopulares">
-                <div class="divyoutubetittles">
-                    <p class="youtubetittles">
-                        ANOTHER ONE BITES THE DUST
-                    </p>
+        </section>
+        <section class="row secpopulares">
+            <div class="card col-md col-sm-12 col-lg-4 divyoutube p-3 mb-2 bg-secondary">
+                <div class="card-body youtubetittles">
+                    <h5 class="card-title">ANOTHER ONE BITES THE DUST</h5>
                 </div>
-                <iframe width="100%" height="90%" src="https://www.youtube.com/embed/rY0WxgSXdEE"
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rY0WxgSXdEE"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-            <div class="divpopulares">
-                <div class="divyoutubetittles">
-                    <p class="youtubetittles">
-                        DON'T STOP ME NOW
-                    </p>
+            <div class="card col-md col-sm-12 col-lg-4 divyoutube p-3 mb-2 bg-secondary">
+                <div class="card-body youtubetittles">
+                    <h5 class="card-title">DON'T STOP ME NOW</h5>
                 </div>
-                <iframe width="100%" height="90%" src="https://www.youtube.com/embed/HgzGwKwLmgM"
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HgzGwKwLmgM"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-            <div class="divpopulares">
-                <div class="divyoutubetittles">
-                    <p class="youtubetittles">
-                        KILLER QUEEN
-                    </p>
+            <div class="card col-md col-sm-12 col-lg-4 divyoutube p-3 mb-2 bg-secondary">
+                <div class="card-body youtubetittles">
+                    <h5 class="card-title">KILLER QUEEN</h5>
                 </div>
-                <iframe width="100%" height="90%" src="https://www.youtube.com/embed/2ZBtPf7FOoM"
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2ZBtPf7FOoM"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -181,18 +171,7 @@
         </section>
     </section>
     <!-- termina area con grid -->
-    <section id="playlist">
-        <!-- playlists -->
-        <!-- cambie el width para poner uno al lado del otro -->
-        <iframe style="border-radius:12px"
-            src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO0ENBD2?utm_source=generator" width="45%"
-            height="750vw" frameBorder="0" allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        <iframe style="border-radius:12px"
-            src="https://open.spotify.com/embed/playlist/15JyftiFKLqfJ6F1gA4byh?utm_source=generator" width="45%"
-            height="750vw" frameBorder="0" allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-    </section>
+
     <section id="canciones">
         <!-- aqui no pondre todas las canciones aún ya que son demasiadas pero hare las mas escuchadas por ahora-->
         <nav class="navcanciones">
